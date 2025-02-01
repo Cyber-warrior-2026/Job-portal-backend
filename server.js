@@ -40,7 +40,10 @@ const options = {
         },
         servers: [
             {
-                url: "http://localhost:8080"
+                //This was a local host url to test the application during development
+              //  url: "http://localhost:8080"
+                //this is the url after deployment on render
+                url:"https://job-portal-backend-cgmt.onrender.com"
             }
         ]
     },
